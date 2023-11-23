@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+      
+}
+
+.banner{
+    height: 100%;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+section{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px;
+    width: 96%;
+}
+
+.outer-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.container{
+    display: flex;
+}
+
+.textbox{
+    color: darkblue;
+    font-weight: bold;
+    
+}
+
+.dropdown{
+    width: 30%;
+    background-color: darkblue;
+    color: white;
+}
+
+img{
+    padding: 5px;
+    width: 5%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn{
+    margin: 3% 9% 0 0;
+    width: 15%;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    cursor: pointer;
+}
